@@ -7,106 +7,136 @@ paginate: true
 ---
 
 # Mold Growth Risk Predictor
-### AI-Driven IoT System Development
+### AI-Driven IoT System Development  
 **Project Plan Preparation (PPP)**
 
 **Name:** Idalia Martin  
-**Course:** CSC 494 - AI-Driven IoT System Development
+**Course:** CSC 494 – AI-Driven IoT System Development
 
 ---
 
-## Project Overview
-**Problem:**  
-Mold growth is often undetected until it causes health issues or property damage.
+## 1. Problem & Why It Matters
 
-**Goal:**  
-The goal is to develop an IoT-based system that monitors environmental conditions and helps users recognize mold risk through humidity and temperature patterns.
+### Problem
+Mold growth in indoor spaces is often undetected until it causes:
+- Health issues
+- Property damage
+- Costly remediation
 
-**Approach:**  
-Use IoT sensors for data collection and AI tools to assist with development, visualization, and analysis.
-
----
-
-## Why
-Mold causes health issues and property damage, but it is usually detected after it has already grown.  
-Mold growth depends on **patterns over time**, not a single reading.  
-
-This project focuses on **prevention**, not post-fact detection.
+### Why This Is Important
+- Mold growth depends on **environmental conditions over time**
+- Most people do not continuously monitor humidity and temperature
+- Early awareness can help **prevent** mold before damage occurs
 
 ---
 
-## System Concept
-1. Sensor collects temperature and humidity data  
-2. ESP32 logs and transmits data  
+## 2. Project Focus (Team / Topic)
+
+### Project Focus Area
+**Sensor + Software Application**
+
+- Sensors collect environmental data
+- Software visualizes patterns and trends
+- System supports user decision-making
+
+This project focuses on **building applications on top of given hardware**.
+
+---
+
+## 3. System Overview
+
+### High-Level Concept
+1. Temperature & humidity sensor collects data  
+2. ESP32 logs and transmits readings  
 3. Web application displays:
-    - Trends over time
-    - Periods of elevated humidity  
-4. User interprets patterns to assess mold risk  
+   - Trends over time
+   - Periods of elevated humidity  
+4. User interprets patterns to assess mold risk
 
-It is a **decision-support system**, not an automated diagnosis.
+This is a **decision-support system** only.
+---
+
+## 4. Role of AI in This Project
+
+AI will be used as a **development and learning assistant**, not as a predictive model.
+
+AI will help with:
+- Embedded programming
+- Sensor integration and debugging
+- Web application development
+- Explaining unfamiliar concepts and tools
+
 
 ---
 
-## Metrics for Progress
-Project progress will be evaluated using:
-- Successful collection of temperature and humidity data  
-- Ability to log and store data over time  
-- Clear visualization of trends in the web application  
-- Completion of sprint goals within the planned timeline
+## 5. Learning with AI (Two Topics)
+
+### Hardware Topic (with AI)
+- **I2C Communication**
+  - Understanding how the AHT10 sensor communicates with the ESP32
+  - Using AI to learn datasheets, wiring, and libraries
+
+### Software Topic (with AI)
+- **Web Application Development**
+  - Building a simple web dashboard
+  - Visualizing temperature and humidity trends
+  - Using AI to learn frameworks and visualization techniques
 
 ---
 
-## Role of AI in This Project
-AI tools will assist with:
-- Embedded programming and sensor integration  
-- Debugging unexpected sensor behavior  
-- Web application development and data visualization  
-- Explaining unfamiliar concepts during development  
+## 6. Sprint 1 – Learning & Exploration
 
-AI is used as a development and learning assistant, **not** as a machine learning model for prediction or diagnosis.
+### What I Need to Learn (Iteration 1)
+- How to interface the AHT10 sensor with the ESP32
+- How to collect and log data reliably
+- How to structure data for visualization
 
----
-
-## Sprint 1: Learning & Exploration
-**Goals:**
-- Interface AHT10 sensor with ESP32  
-- Collect and log sensor data  
-- Explore data patterns
-
-**Activities:**
-- Use AI tools to learn sensor libraries  
-- Prototype data logging  
-- Initial dashboard layout planning  
+### Activities
+- Use AI to learn sensor libraries
+- Prototype sensor readings
+- Test basic data logging
 
 ---
 
-## Sprint 2: Solution Development
-**Goals:**
-- Build web application  
-- Visualize humidity and temperature trends  
-- Implement basic alerts or indicators
+## 7. Sprint 2 – Feature Development
 
-**Activities:**
-- Refine data presentation  
-- Analyze changes in humidity and temperature over time  
-- Evaluate system limitations  
+### What I Will Build (Iteration 2)
+- Web application dashboard
+- Time-based graphs for humidity and temperature
+- Basic indicators for elevated humidity conditions
+
+### Activities
+- Refine data presentation
+- Analyze changes over time
+- Evaluate system limitations
 
 ---
 
-## Project Scope
-**Included:**
-- Monitoring temperature and humidity  
-- Visualizing environmental trends  
-- Supporting user decision-making
+## 8. Project Scope
 
-**Not Included:**
-- Mold detection or diagnosis  
-- Health or medical recommendations  
-- Advanced machine learning models  
+### Included
+- Environmental monitoring
+- Data visualization
+- User decision support
+
+### Not Included
+- Mold detection or diagnosis
+- Medical or health recommendations
+- Advanced machine learning models
+
+---
+
+## 9. Final Goal
+
+By the end of the semester, I expect to:
+- Build a **working IoT prototype**
+- Demonstrate it as part of my **portfolio**
+- Use it as a foundation for future extensions
 
 ---
 
 ## Conclusion
-This project explores how IoT sensing combined with AI assistance can help users recognize environmental conditions that contribute to mold growth.
+
+This project demonstrates how IoT sensing and AI-assisted development can help users understand environmental conditions that contribute to mold growth — **before damage occurs**.
 
 Thank you!
