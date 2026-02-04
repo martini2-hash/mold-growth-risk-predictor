@@ -6,27 +6,18 @@ theme: default
 paginate: true
 ---
 
-# Mold Growth Risk Predictor
+# Mold Risk Monitor
 ### AI-Driven IoT System Development  
 **Project Plan Preparation (PPP)**
 
 **Name:** Idalia Martin  
-**Course:** CSC 494 – AI-Driven IoT System Development
 
 ---
 
 ## 1. Problem & Why It Matters
 
 ### Problem
-Mold growth in indoor spaces is often undetected until it causes:
-- Health issues
-- Property damage
-- Costly remediation
-
-### Why This Is Important
-- Mold growth depends on **environmental conditions over time**
-- Most people do not continuously monitor humidity and temperature
-- Early awareness can help **prevent** mold before damage occurs
+Mold growth in indoor spaces often goes unnoticed until it causes health issues or property damage, because it develops gradually under certain humidity and temperature conditions that are rarely monitored over time. 
 
 ---
 
@@ -39,13 +30,10 @@ Mold growth in indoor spaces is often undetected until it causes:
 - Software visualizes patterns and trends
 - System supports user decision-making
 
-This project focuses on **building applications on top of given hardware**.
-
 ---
 
 ## 3. System Overview
 
-### High-Level Concept
 1. Temperature & humidity sensor collects data  
 2. ESP32 logs and transmits readings  
 3. Web application displays:
@@ -53,7 +41,6 @@ This project focuses on **building applications on top of given hardware**.
    - Periods of elevated humidity  
 4. User interprets patterns to assess mold risk
 
-This is a **decision-support system** only.
 ---
 
 ## 4. Role of AI in This Project
@@ -65,7 +52,6 @@ AI will help with:
 - Sensor integration and debugging
 - Web application development
 - Explaining unfamiliar concepts and tools
-
 
 ---
 
@@ -112,21 +98,7 @@ AI will help with:
 
 ---
 
-## 8. Project Scope
-
-### Included
-- Environmental monitoring
-- Data visualization
-- User decision support
-
-### Not Included
-- Mold detection or diagnosis
-- Medical or health recommendations
-- Advanced machine learning models
-
----
-
-## 9. Final Goal
+## 8. Final Goal
 
 By the end of the semester, I expect to:
 - Build a **working IoT prototype**
@@ -135,8 +107,6 @@ By the end of the semester, I expect to:
 
 ---
 
-## Conclusion
+## Thank you!
 
-This project demonstrates how IoT sensing and AI-assisted development can help users understand environmental conditions that contribute to mold growth — **before damage occurs**.
-
-Thank you!
+Any questions?
